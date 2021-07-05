@@ -74,6 +74,11 @@ To Login to the database, go to link: http://localhost:8080/h2-console with JDBC
 
 ![image](https://user-images.githubusercontent.com/86971702/124508026-0a755e00-dd9d-11eb-91bb-5ee992ffb9b9.png)
 
+10) Test are included under the test folder:
+
+![image](https://user-images.githubusercontent.com/86971702/124508207-6d66f500-dd9d-11eb-8c04-2ea51b5cad58.png)
+
+
 
 
 
