@@ -56,10 +56,7 @@ To Login to the database, go to link: http://localhost:8080/h2-console with JDBC
 
 5) Get a specific pet in the database: localhost:8080/pet/101 
 
-
-
-![image](https://user-images.githubusercontent.com/86971702/124507349-a00fee00-dd9b-11eb-81e0-00a20c26a8d0.png)
-
+![image](https://user-images.githubusercontent.com/86971702/124507784-891dcb80-dd9c-11eb-9a70-e3165f80827b.png)
 
 6) Get a list of pets (max limit of 100 returned): localhost:8080/pets
 
