@@ -68,6 +68,12 @@ To Login to the database, go to link: http://localhost:8080/h2-console with JDBC
 
 8) Update a pet (like its name or price change): localhost:8080/pet/{id}
 
+![image](https://user-images.githubusercontent.com/86971702/124507907-cc783a00-dd9c-11eb-9617-18215c4ba845.png)
+
+9) Delete a pet: localhost:8080/pet/{id}
+
+![image](https://user-images.githubusercontent.com/86971702/124508026-0a755e00-dd9d-11eb-91bb-5ee992ffb9b9.png)
+
 
 
 
