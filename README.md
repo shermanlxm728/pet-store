@@ -1,8 +1,6 @@
 # Pet Store
 This repo is an application for a local pet store. The store needs to manage the names, types, and price of all pets. 
 
-The requirements are:
-
 The app is built with Spring Boot
 
 Each pet at the shop include the following attributes – name, type, price. For example: name:Max, type:dog, price:15
