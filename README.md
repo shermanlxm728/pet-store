@@ -9,15 +9,15 @@ Each pet at the shop include the following attributes – name, type, price. For
 
 The following functionality are exposed via RESTful APIs
 
-Get a specific pet: localhost:8080/pet/101
+Get a specific pet: localhost:8080/pet/{id}
 
 Get a list of pets (max limit of 100 returned): localhost:8080/pets
 
 Create a new pet: localhost:8080/pet
 
-Update a pet (like its name or price change): localhost:8080/pet/101 
+Update a pet (like its name or price change): localhost:8080/pet/{id} 
 
-Delete a pet: localhost:8080/pet/101
+Delete a pet: localhost:8080/pet/{id}
 
 Pets are stored in h2 database. The database are populated with following data on startup:
 
