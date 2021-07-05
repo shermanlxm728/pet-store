@@ -1,9 +1,8 @@
 # Pet Store
+
 This repo is an application for a local pet store. The store needs to manage the names, types, and price of all pets. 
 
-The app is built with Spring Boot
-
-Each pet at the shop include the following attributes – name, type, price. For example: name:Max, type:dog, price:15
+The app is built with Spring Boot. Each pet at the shop include the following attributes – name, type, price. For example: name:Max, type:dog, price:15
 
 The following functionality are exposed via RESTful APIs
 
@@ -21,7 +20,10 @@ Pets are stored in h2 database. The database are populated with following data o
 
 ![image](https://user-images.githubusercontent.com/86971702/124503302-44416700-dd93-11eb-9a5a-a7d35cae0f01.png)
 
+Tests are included with the code.
 
-Tests are be included with the code.
+## Setup
+### Requirements
+* Should use Java 11 or higher. Previous versions of Java are un-tested.
+* Use Maven 3.6.0 or higher
 
-All code should be available for review in a git repository of your choosing. Include documentation on how to run the app
