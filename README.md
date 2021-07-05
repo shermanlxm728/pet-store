@@ -37,3 +37,41 @@ Tests are included with the code.
      ```
     File -> New -> Project from Exsiting Source..
     ```
+    run the application by right clicking on the PetstoreApplication main class and choosing Run 'PetstoreApplication'.
+    
+3) Navigate to Petstore Swagger UI, then you can perform CRUD operation
+
+    Visit http://localhost:8080/swagger-ui.html in your browser.
+    
+    ![image](https://user-images.githubusercontent.com/86971702/124506472-b4eb8200-dd99-11eb-9974-2f2f8ac83506.png)
+
+4) Pets are stored in h2 database. The database are populated with following data on startup:
+
+![image](https://user-images.githubusercontent.com/86971702/124503302-44416700-dd93-11eb-9a5a-a7d35cae0f01.png)
+
+To Login to the database, go to link: http://localhost:8080/h2-console with JDBC URL: jdbc:h2:mem:testdb as shown below
+
+![image](https://user-images.githubusercontent.com/86971702/124507498-e1a09900-dd9b-11eb-8beb-9445f7950435.png)
+
+
+5) Get a specific pet in the database: localhost:8080/pet/101 
+
+
+
+![image](https://user-images.githubusercontent.com/86971702/124507349-a00fee00-dd9b-11eb-81e0-00a20c26a8d0.png)
+
+
+6) Get a list of pets (max limit of 100 returned): localhost:8080/pets
+
+![image](https://user-images.githubusercontent.com/86971702/124506859-84581800-dd9a-11eb-885c-10b2fe3b830e.png)
+
+7) Create a new pet: localhost:8080/pet
+
+![image](https://user-images.githubusercontent.com/86971702/124506934-b1a4c600-dd9a-11eb-9912-98095b7fc41d.png)
+
+8) Update a pet (like its name or price change): localhost:8080/pet/{id}
+
+
+
+
+
