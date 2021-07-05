@@ -28,3 +28,12 @@ Tests are included with the code.
 * Use Maven 3.6.0 or higher
 * IntelliJ 2018 or Higher
 
+### Steps:
+1) On the command line
+    ```
+    git clone https://github.com/shermanlxm728/pet-store.git
+    ```
+ 2) Inside Intellij
+     ```
+    File -> New -> Project from Exsiting Source..
+    ```
