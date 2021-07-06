@@ -19,49 +19,49 @@ public class PetValidatorTest {
     }
 
     @Test
-    void validateRequestBody_EmptyName() {
+    void validatePet_EmptyName() {
         pet = Pet.builder().petId(101).name("").price(16).petType("dog").build();
         assertThrows(BadRequestException.class, () -> petValidator.validatePet(pet));
     }
 
     @Test
-    void validateRequestBody_NullName() {
+    void validatePet_NullName() {
         pet = Pet.builder().petId(101).price(16).petType("dog").build();
         assertThrows(BadRequestException.class, () -> petValidator.validatePet(pet));
     }
 
     @Test
-    void validateRequestBody_EmptyType() {
+    void validatePet_EmptyType() {
         pet = Pet.builder().petId(101).name("Sean").price(16).petType("").build();
         assertThrows(BadRequestException.class, () -> petValidator.validatePet(pet));
     }
 
     @Test
-    void validateRequestBody_NullType() {
+    void validatePet_NullType() {
         pet = Pet.builder().petId(101).name("Sean").price(16).build();
         assertThrows(BadRequestException.class, () -> petValidator.validatePet(pet));
     }
 
     @Test
-    void validateRequestBody_NoPrice() {
+    void validatePet_NoPrice() {
         pet = Pet.builder().petId(101).name("").petType("dog").build();
         assertThrows(BadRequestException.class, () -> petValidator.validatePet(pet));
     }
 
     @Test
-    void validateRequestBody_PriceWithZero() {
+    void validatePet_PriceWithZero() {
         pet = Pet.builder().petId(101).name("").price(0).petType("dog").build();
         assertThrows(BadRequestException.class, () -> petValidator.validatePet(pet));
     }
 
     @Test
-    void validatePathParameter() {
+    void validatePetId() {
         String id = "123ABC";
         assertThrows(BadRequestException.class, ()-> petValidator.validatePetId(id));
     }
 
     @Test
-    void validatePathAndBody_HappyPath() {
+    void validatePetAndPetId_HappyPath() {
         String id = "101";
         pet = Pet.builder().petId(101).name("Sean").price(10).petType("dog").build();
         assertDoesNotThrow(() -> petValidator.validatePetAndPetId(id, pet));
