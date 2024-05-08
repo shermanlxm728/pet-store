@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "dc56c4df-a8da-4019-8f34-a51358363301",
+		"name": "pet-store",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6189337",
+		"_collection_link": "https://universal-equinox-903275.postman.co/workspace/Scotiabank~1c33fa55-ef71-4a21-9b42-b7af5df063c7/collection/6189337-dc56c4df-a8da-4019-8f34-a51358363301?action=share&source=collection_link&creator=6189337"
+	},
+	"item": [
+		{
+			"name": "Get pet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/pet/101",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pet",
+						"101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a list of pets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/pets",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update a pet",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/pet/{id}",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pet",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a pet",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/pet/101",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pet",
+						"101"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

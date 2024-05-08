@@ -29,15 +29,13 @@ Tests are included with the code.
 * IntelliJ 2018 or Higher
 
 ### Steps:
-1) On the command line
+1) Unzip  the zip file with the project: pet-store
+    
+2) Inside Intellij
     ```
-    git clone https://github.com/shermanlxm728/pet-store.git
-    ```
- 2) Inside Intellij
-     ```
-    File -> New -> Project from Exsiting Source..
-    ```
-    run the application by right clicking on the PetstoreApplication main class and choosing Run 'PetstoreApplication'.
+   File -> New -> Project from Exsiting Source..
+   ```
+   run the application by right clicking on the PetstoreApplication main class and choosing Run 'PetstoreApplication'.
     
 3) Navigate to Petstore Swagger UI, then you can perform CRUD operation
 
