@@ -29,7 +29,10 @@ Tests are included with the code.
 * IntelliJ 2018 or Higher
 
 ### Steps:
-1) Unzip  the zip file with the project: pet-store
+1) On the command line
+    ```
+    git clone https://github.com/shermanlxm728/pet-store.git
+    ```
     
 2) Inside Intellij
     ```
@@ -76,6 +79,8 @@ To Login to the database, go to link: http://localhost:8080/h2-console with JDBC
 
 ![image](https://user-images.githubusercontent.com/86971702/124508207-6d66f500-dd9d-11eb-8c04-2ea51b5cad58.png)
 
+
+11) Postman file is inside the project: 
 
 
 
